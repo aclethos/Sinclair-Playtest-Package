@@ -1,7 +1,7 @@
 {
-  "name": "gather-element-macro",
-  "title": "Gather Element Macro",
-  "description": "This Module adds a Gather Element Macro for the Kineticist to display Buffs when using the action Gather Element.",
+  "name": "module",
+  "title": "New Module",
+  "description": "",
   "version": "This is auto replaced",
   "library": "false",
   "manifestPlusVersion": "1.0.0",
@@ -9,38 +9,42 @@
   "compatibleCoreVersion": "9",
   "authors": [
     {
-      "name": "Aclethos",
-      "discord": "Aclethos#6512"
+      "name": "The League of Extraordinary FVTT Developers",
+      "url": "https://github.com/League-of-Foundry-Developers",
+      "discord": "discordID#0001"
     }
   ],
-  "languages": [],
-   "packs": [
-  {
-  "name": "gather-element-macro",
-  "path": "packs/gather-element-macro.db",
-  "entity": "Macro",
-  "system": "pf2e",
-  "package": "Gather Element Macro",
-  "private": false
-  },
-  {
-  "name": "kineticist-element",
-  "path": "packs/kineticist-element.db",
-  "entity": "Item",
-  "system": "pf2e",
-  "package": "Kineticist Elements",
-  "private": false
-  },
-     
+  "dependencies": [
+
+  ],
+  "conflicts": [
+    
+  ],
+  "esmodules": [
+    "scripts/module.js"
+  ],
+  "scripts": [
+    "scripts/lib/lib.js"
+  ],
+  "styles": [
+    "styles/module.css"
+  ],
+  "languages": [
+    {
+      "lang": "en",
+      "name": "English",
+      "path": "languages/en.json"
+    }
+  ],
   "url": "This is auto replaced",
   "manifest": "This is auto replaced",
   "download": "This is auto replaced",
   "license": "LICENSE",
   "readme": "README.md",
-  "media": [ "media": [
+  "media": [
     {
       "type": "icon",
       "url": "https://avatars2.githubusercontent.com/u/71292812?s=400&u=ccdb4eeb7abf551ca8f314e5a9bfd0479a4d3d41&v=4"
     }
   ]
-
+}

@@ -9,7 +9,6 @@
 	"compatibleCoreVersion": "9",
 	"authors": [{
 		"name": "Aclethos",
-		"url": "https://github.com/aclethos",
 		"discord": "Aclethos#6512"
 	}],
 	"dependencies": [

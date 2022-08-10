@@ -13,13 +13,14 @@
       "discord": "Aclethos#6512"
     }
   ],
-  "dependencies": [
-
+  "languages": [
+    {
+      "lang": "en",
+      "name": "English",
+      "path": "languages/en.json"
+    }
   ],
-  "conflicts": [
-    
-  ],
-  "packs": [
+   "packs": [
   {
   "name": "Gather-Element-Macro",
   "path": "packs/gather-element-macro.db",
@@ -36,22 +37,6 @@
   "package": "Kineticist Elements",
   "private": false
   },
-  "esmodules": [
-    "scripts/module.js"
-  ],
-  "scripts": [
-    "scripts/lib/lib.js"
-  ],
-  "styles": [
-    "styles/module.css"
-  ],
-  "languages": [
-    {
-      "lang": "en",
-      "name": "English",
-      "path": "languages/en.json"
-    }
-  ],
   "url": "This is auto replaced",
   "manifest": "This is auto replaced",
   "download": "This is auto replaced",

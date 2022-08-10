@@ -1,7 +1,7 @@
 {
   "name": "gather-element-macro",
-  "title": "New Module",
-  "description": "",
+  "title": "Gather Element Macro",
+  "description": "This module adds a macro for Gather Element, to display an effect on the token it is used on.",
   "version": "This is auto replaced",
   "library": "false",
   "manifestPlusVersion": "1.0.0",
@@ -9,9 +9,9 @@
   "compatibleCoreVersion": "9",
   "authors": [
     {
-      "name": "The League of Extraordinary FVTT Developers",
-      "url": "https://github.com/League-of-Foundry-Developers",
-      "discord": "discordID#0001"
+      "name": "Aclethos",
+      "url": "https://github.com/aclethos",
+      "discord": "Aclethos#6512"
     }
   ],
   "dependencies": [
@@ -36,6 +36,23 @@
       "path": "languages/en.json"
     }
   ],
+  "packs": [
+  {
+  "name": "Gather-Element-Macro",
+  "path": "packs/gather-element-macro.db",
+  "entity": "Macro",
+  "system": "pf2e",
+  "package": "Gather Element Macro",
+  "private": false
+  },
+  {
+  "name": "Kineticist-Element",
+  "path": "packs/kineticist-element.db",
+  "entity": "Item",
+  "system": "pf2e",
+  "package": "Kineticist Elements",
+  "private": false
+  },
   "url": "This is auto replaced",
   "manifest": "This is auto replaced",
   "download": "This is auto replaced",

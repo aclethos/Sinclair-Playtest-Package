@@ -1,67 +1,60 @@
 {
-  "name": "gather-element-macro",
-  "title": "Gather Element Macro",
-  "description": "This module adds a macro for Gather Element, to display an effect on the token it is used on.",
-  "version": "This is auto replaced",
-  "library": "false",
-  "manifestPlusVersion": "1.0.0",
-  "minimumCoreVersion": "9",
-  "compatibleCoreVersion": "9",
-  "authors": [
-    {
-      "name": "Aclethos",
-      "url": "https://github.com/aclethos",
-      "discord": "Aclethos#6512"
-    }
-  ],
-  "dependencies": [
+	"name": "gather-element-macro",
+	"title": "Gather Element Macro",
+	"description": "This module adds a macro for Gather Element, to display an effect on the token it is used on.",
+	"version": "This is auto replaced",
+	"library": "false",
+	"manifestPlusVersion": "1.0.0",
+	"minimumCoreVersion": "9",
+	"compatibleCoreVersion": "9",
+	"authors": [{
+		"name": "Aclethos",
+		"url": "https://github.com/aclethos",
+		"discord": "Aclethos#6512"
+	}],
+	"dependencies": [
 
-  ],
-  "conflicts": [
-    
-  ],
-  "esmodules": [
-    "scripts/module.js"
-  ],
-  "scripts": [
-    "scripts/lib/lib.js"
-  ],
-  "styles": [
-    "styles/module.css"
-  ],
-  "languages": [
-    {
-      "lang": "en",
-      "name": "English",
-      "path": "languages/en.json"
-    }
-  ],
-  "packs": [
-  {
-  "name": "Gather-Element-Macro",
-  "path": "packs/gather-element-macro.db",
-  "entity": "Macro",
-  "system": "pf2e",
-  "package": "Gather Element Macro",
-  "private": false
-  },
-  {
-  "name": "Kineticist-Element",
-  "path": "packs/kineticist-element.db",
-  "entity": "Item",
-  "system": "pf2e",
-  "package": "Kineticist Elements",
-  "private": false
-  },
-  "url": "This is auto replaced",
-  "manifest": "This is auto replaced",
-  "download": "This is auto replaced",
-  "license": "LICENSE",
-  "readme": "README.md",
-  "media": [
-    {
-      "type": "icon",
-      "url": "https://avatars2.githubusercontent.com/u/71292812?s=400&u=ccdb4eeb7abf551ca8f314e5a9bfd0479a4d3d41&v=4"
-    }
-  ]
+	],
+	"conflicts": [
 
+	],
+	"esmodules": [
+		"scripts/module.js"
+	],
+	"scripts": [
+		"scripts/lib/lib.js"
+	],
+	"styles": [
+		"styles/module.css"
+	],
+	"languages": [{
+		"lang": "en",
+		"name": "English",
+		"path": "languages/en.json"
+	}],
+	"packs": [{
+			"name": "Gather-Element-Macro",
+			"path": "packs/gather-element-macro.db",
+			"entity": "Macro",
+			"system": "pf2e",
+			"package": "Gather Element Macro",
+			"private": false
+		},
+		{
+			"name": "Kineticist-Element",
+			"path": "packs/kineticist-element.db",
+			"entity": "Item",
+			"system": "pf2e",
+			"package": "Kineticist Elements",
+			"private": false
+		},
+		{
+			"url": "This is auto replaced",
+			"manifest": "This is auto replaced",
+			"download": "This is auto replaced",
+			"license": "LICENSE",
+			"readme": "README.md",
+			"media": []
+		}
+	]
+}

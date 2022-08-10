@@ -1,25 +1,37 @@
 {
-  "id": "module",
-  "title": "New Module",
-  "description": "",
+  "id": "gather-element-macro",
+  "title": "Gather Element Macro",
+  "description": "This Module adds playtest material for the Kineticist to the PF2E system, adding Four Element Effects, and a Macro to apply them to a token using the Gather Element Macro",
   "version": "This is auto replaced",
   "library": "false",
   "manifestPlusVersion": "1.2.0",
   "compatibility": {
-    "minimum": 10,
-    "verified": 10,
-    "maximum": 11
+    "minimum": 9,
+    "verified": 9,
+    "maximum": 10
   },
-  "authors": [
+  "author": [
     {
-      "name": "The League of Extraordinary FVTT Developers",
-      "url": "https://github.com/League-of-Foundry-Developers",
-      "discord": "discordID#0001"
+      "name": "Aclethos",
+      "discord": "Aclethos#6512"
     }
   ],
-  "relationships": {
-    "systems": [],
-    "requires": []
+  "packs": [
+  {
+  "name": "Gather-Element-Macro",
+  "path": "packs/gather-element-macro.db",
+  "entity": "Macro",
+  "system": "pf2e",
+  "package": "Gather Element Macro",
+  "private": false
+  },
+  {
+  "name": "Kineticist-Element",
+  "path": "packs/kineticist-element.db",
+  "entity": "Item",
+  "system": "pf2e",
+  "package": "Kineticist Elements",
+  "private": false
   },
   "esmodules": [
     "scripts/module.js"

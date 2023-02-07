@@ -113,12 +113,14 @@
 					"bovian": "Bovian",
 					"gnosite": "Gnosite"
 				},
-				"armoreTraits": {
+				"armorTraits": {
 					"gnosite": "Gnosite"
 				},
 				"featTraits": {
 					"bovian": "Bovian",
-					"gnosite": "Gnosite"
+					"gnosite": "Gnosite",
+					"shaman": "Shaman",
+					"vitamancy": "Vitamancy",
 				},
 				"weaponTraits": {
 					"bovian": {
@@ -130,6 +132,9 @@
 						"description": "A weapon with this trait..."
 					}
 				},
+				 "spellTraits": {
+					"vitamancy": "Vitamancy"
+				},
 				"id": "sinclairs-library-playtest",
 				"authors": [{
 					"name": "Aclethos"
@@ -140,7 +145,7 @@
 					"minimum": 9,
 					"verified": 10
 				},
-				"version": "1.2"
+				"version": "1.21"
 			}
 		}
 

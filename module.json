@@ -3,6 +3,8 @@
 	"title": "Sinclair's Library Playtest",
 	"author": "Aclethos",
 	"url": "This gets Autoreplaced",
+	"manifest": "This gets Autoreplaced",
+	"download": "This gets Autoreplaced",
 	"description": "Approved Playtest Material for Sinclair's Library PF2e",
 	"packs": [{
 			"name": "sinclairs-library-ancestries",
@@ -125,8 +127,6 @@
 						"description": "A weapon with this trait..."
 					}
 				},
-				"manifest": "This gets Autoreplaced",
-				"download": "This gets Autoreplaced",
 				"id": "sinclairs-library-playtest",
 				"authors": [{
 					"name": "Aclethos"

@@ -113,12 +113,14 @@
 					"bovian": "Bovian",
 					"gnosite": "Gnosite"
 				},
-				"armoreTraits": {
+				"armorTraits": {
 					"gnosite": "Gnosite"
 				},
 				"featTraits": {
 					"bovian": "Bovian",
-					"gnosite": "Gnosite"
+					"gnosite": "Gnosite",
+					"shaman": "Shaman",
+					"vitamancy": "Vitamancy",
 				},
 				"weaponTraits": {
 					"bovian": {
@@ -129,6 +131,9 @@
 						"label": "Return",
 						"description": "A weapon with this trait..."
 					}
+				},
+				 "spellTraits": {
+					"vitamancy": "Vitamancy"
 				},
 				"id": "sinclairs-library-playtest",
 				"authors": [{

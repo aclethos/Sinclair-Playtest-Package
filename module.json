@@ -1,64 +1,122 @@
 {
-  "name": "sinclairs-bovian-pf2e",
-  "title": "Sinclair's Bovian PF2E",
-  "description": "Playtest 1 Package for the Bovian Ancestry in PF2E.",
-  "author": [
-    {
-      "name": "Aclethos",
-      "discord": "Aclethos#6512"
-    }
-  ],
-  "authors": [],
-  "url": "https://github.com/aclethos/sinclair-bovian-playtest",
-  "flags": {
-  "bovian-pack": {
-    "pf2e-homebrew": {
-      "creatureTraits": {
-        "bovian": "Bovian"
-      },
-      "featTraits": {
-        "bovian": "Bovian"
-      },
-      "weaponTraits": {
-        "bovian": {
-          "label": "Bovian",
-          "description": " "
+    "name": "sinclairs-library-playtest",
+    "title": "Sinclair's Library Playtest",
+    "author": "Aclethos",
+    "description": "Approved Playtest Material for Sinclair's Library PF2e",
+    "packs": [
+        {
+            "name": "sinclairs-library-ancestries",
+            "label": "Sinclair's Library - Ancestries",
+            "type": "Item",
+            "system": "pf2e",
+            "path": "packs/sinclairs-library-ancestries.db",
+            "entity": "Item",
+            "module": "sinclairs-library-playtest"
         },
-        "return": {
-          "label": "Return",
-          "description": "An item with this trait is created and used by Bovines."
+        {
+            "name": "sinclairs-library-feats",
+            "label": "Sinclair's Library - Feats",
+            "type": "Item",
+            "system": "pf2e",
+            "path": "packs/sinclairs-library-feats.db",
+            "entity": "Item",
+            "module": "sinclairs-library-playtest"
+        },
+        {
+            "name": "sinclairs-library-effects",
+            "label": "Sinclair's Library - Effects",
+            "type": "Item",
+            "system": "pf2e",
+            "path": "packs/sinclairs-library-effects.db",
+            "entity": "Item",
+            "module": "sinclairs-library-playtest"
+        },
+        {
+            "name": "sinclairs-library-classes",
+            "label": "Sinclair's Library - Classes",
+            "type": "Item",
+            "system": "pf2e",
+            "path": "packs/sinclairs-library-classes.db",
+            "entity": "Item",
+            "module": "sinclairs-library-playtest"
+        },
+        {
+            "name": "sinclairs-library-archetypes",
+            "label": "Sinclair's Library - Archetypes",
+            "type": "Item",
+            "system": "pf2e",
+            "path": "packs/sinclairs-library-archetypes.db",
+            "entity": "Item",
+            "module": "sinclairs-library-playtest"
+        },
+        {
+            "name": "sinclairs-library-actions",
+            "label": "Sinclair's Library - Actions",
+            "type": "Item",
+            "system": "pf2e",
+            "path": "packs/sinclairs-library-actions.db",
+            "entity": "Item",
+            "module": "sinclairs-library-playtest"
+        },
+        {
+            "name": "sinclairs-library-features",
+            "label": "Sinclair's Library - Features",
+            "type": "Item",
+            "system": "pf2e",
+            "path": "packs/sinclairs-library-features.db",
+            "entity": "Item",
+            "module": "sinclairs-library-playtest"
+        },
+        {
+            "name": "sinclairs-library-heritages",
+            "label": "Sinclair's Library - Heritages",
+            "type": "Item",
+            "system": "pf2e",
+            "path": "packs/sinclairs-library-heritages.db",
+            "entity": "Item",
+            "module": "sinclairs-library-playtest"
+        },
+        {
+            "name": "sinclairs-library-equipment",
+            "label": "Sinclair's Library - Equipment",
+            "type": "Item",
+            "system": "pf2e",
+            "path": "packs/sinclairs-library-equipment.db",
+            "entity": "Item",
+            "module": "sinclairs-library-playtest"
+        },
+        {
+            "name": "sinclairs-library-backgrounds",
+            "label": "Sinclair's Library - Backgrounds",
+            "type": "Item",
+            "system": "pf2e",
+            "path": "packs/sinclairs-library-backgrounds.db",
+            "entity": "Item",
+            "module": "sinclairs-library-playtest"
+        },
+        {
+            "name": "sinclairs-library-spells",
+            "label": "Sinclair's Library - Spells",
+            "type": "Item",
+            "system": "pf2e",
+            "path": "packs/sinclairs-library-spells.db",
+            "entity": "Item",
+            "module": "sinclairs-library-playtest"
         }
-      }
-    }
-  }
-},
-  "minimumCoreVersion": "9",
-  "compatibleCoreVersion": "10",
-  "scripts": [
-    "./module/module.js"
-  ],
-  "esmodules": [],
-  "styles": [],
-  "languages": [],
-  "packs": [
-    {
-      "name": "bovian",
-	"path": "packs/bovian.db",
-	"entity": "Item",
-	"system": "pf2e",
-	"package": "Bovian Ancestry",
-	"private": false
-},
-	  ],
-  "system": [
-    "pf2e"
-  ],
-  "dependencies": [],
-  "socket": false,
-  "version": "This gets autoreplaced",
-  "manifest": "This gets autoreplaced",
-  "download": "This gets autoreplaced",
-  "protected": false,
-  "coreTranslation": false,
-  "library": false
+    ],
+    "manifest": "http://fgen.lffg.org/module/manifest/eyJuYW1lIjoic2luY2xhaXJzLWxpYnJhcnktcGxheXRlc3QiLCJ0aXRsZSI6IlNpbmNsYWlyJ3MgTGlicmFyeSBQbGF5dGVzdCIsImF1dGhvciI6IkFjbGV0aG9zIiwiZGVzY3JpcHRpb24iOiJBcHByb3ZlZCBQbGF5dGVzdCBNYXRlcmlhbCBmb3IgU2luY2xhaXIncyBMaWJyYXJ5IFBGMmUiLCJzeXN0ZW0iOiJwZjJlIiwicGFja3MiOlt7Im5hbWUiOiJzaW5jbGFpcnMtbGlicmFyeS1hbmNlc3RyaWVzIiwibGFiZWwiOiJTaW5jbGFpcidzIExpYnJhcnkgLSBBbmNlc3RyaWVzIiwidHlwZSI6Ikl0ZW0ifSx7Im5hbWUiOiJzaW5jbGFpcnMtbGlicmFyeS1mZWF0cyIsImxhYmVsIjoiU2luY2xhaXIncyBMaWJyYXJ5IC0gRmVhdHMiLCJ0eXBlIjoiSXRlbSJ9LHsibmFtZSI6InNpbmNsYWlycy1saWJyYXJ5LWVmZmVjdHMiLCJsYWJlbCI6IlNpbmNsYWlyJ3MgTGlicmFyeSAtIEVmZmVjdHMiLCJ0eXBlIjoiSXRlbSJ9LHsibmFtZSI6InNpbmNsYWlycy1saWJyYXJ5LWNsYXNzZXMiLCJsYWJlbCI6IlNpbmNsYWlyJ3MgTGlicmFyeSAtIENsYXNzZXMiLCJ0eXBlIjoiSXRlbSJ9LHsibmFtZSI6InNpbmNsYWlycy1saWJyYXJ5LWFyY2hldHlwZXMiLCJsYWJlbCI6IlNpbmNsYWlyJ3MgTGlicmFyeSAtIEFyY2hldHlwZXMiLCJ0eXBlIjoiSXRlbSJ9LHsibmFtZSI6InNpbmNsYWlycy1saWJyYXJ5LWFjdGlvbnMiLCJsYWJlbCI6IlNpbmNsYWlyJ3MgTGlicmFyeSAtIEFjdGlvbnMiLCJ0eXBlIjoiSXRlbSJ9LHsibmFtZSI6InNpbmNsYWlycy1saWJyYXJ5LWZlYXR1cmVzIiwibGFiZWwiOiJTaW5jbGFpcidzIExpYnJhcnkgLSBGZWF0dXJlcyIsInR5cGUiOiJJdGVtIn0seyJuYW1lIjoic2luY2xhaXJzLWxpYnJhcnktaGVyaXRhZ2VzIiwibGFiZWwiOiJTaW5jbGFpcidzIExpYnJhcnkgLSBIZXJpdGFnZXMiLCJ0eXBlIjoiSXRlbSJ9LHsibmFtZSI6InNpbmNsYWlycy1saWJyYXJ5LWVxdWlwbWVudCIsImxhYmVsIjoiU2luY2xhaXIncyBMaWJyYXJ5IC0gRXF1aXBtZW50IiwidHlwZSI6IkFjdG9yIn0seyJuYW1lIjoic2luY2xhaXJzLWxpYnJhcnktYmFja2dyb3VuZHMiLCJsYWJlbCI6IlNpbmNsYWlyJ3MgTGlicmFyeSAtIEJhY2tncm91bmRzIiwidHlwZSI6IkFjdG9yIn0seyJuYW1lIjoic2luY2xhaXJzLWxpYnJhcnktc3BlbGxzIiwibGFiZWwiOiJTaW5jbGFpcidzIExpYnJhcnkgLSBTcGVsbHMiLCJ0eXBlIjoiQWN0b3IifV19/module.json",
+    "download": "http://fgen.lffg.org/module/download/eyJuYW1lIjoic2luY2xhaXJzLWxpYnJhcnktcGxheXRlc3QiLCJ0aXRsZSI6IlNpbmNsYWlyJ3MgTGlicmFyeSBQbGF5dGVzdCIsImF1dGhvciI6IkFjbGV0aG9zIiwiZGVzY3JpcHRpb24iOiJBcHByb3ZlZCBQbGF5dGVzdCBNYXRlcmlhbCBmb3IgU2luY2xhaXIncyBMaWJyYXJ5IFBGMmUiLCJzeXN0ZW0iOiJwZjJlIiwicGFja3MiOlt7Im5hbWUiOiJzaW5jbGFpcnMtbGlicmFyeS1hbmNlc3RyaWVzIiwibGFiZWwiOiJTaW5jbGFpcidzIExpYnJhcnkgLSBBbmNlc3RyaWVzIiwidHlwZSI6Ikl0ZW0ifSx7Im5hbWUiOiJzaW5jbGFpcnMtbGlicmFyeS1mZWF0cyIsImxhYmVsIjoiU2luY2xhaXIncyBMaWJyYXJ5IC0gRmVhdHMiLCJ0eXBlIjoiSXRlbSJ9LHsibmFtZSI6InNpbmNsYWlycy1saWJyYXJ5LWVmZmVjdHMiLCJsYWJlbCI6IlNpbmNsYWlyJ3MgTGlicmFyeSAtIEVmZmVjdHMiLCJ0eXBlIjoiSXRlbSJ9LHsibmFtZSI6InNpbmNsYWlycy1saWJyYXJ5LWNsYXNzZXMiLCJsYWJlbCI6IlNpbmNsYWlyJ3MgTGlicmFyeSAtIENsYXNzZXMiLCJ0eXBlIjoiSXRlbSJ9LHsibmFtZSI6InNpbmNsYWlycy1saWJyYXJ5LWFyY2hldHlwZXMiLCJsYWJlbCI6IlNpbmNsYWlyJ3MgTGlicmFyeSAtIEFyY2hldHlwZXMiLCJ0eXBlIjoiSXRlbSJ9LHsibmFtZSI6InNpbmNsYWlycy1saWJyYXJ5LWFjdGlvbnMiLCJsYWJlbCI6IlNpbmNsYWlyJ3MgTGlicmFyeSAtIEFjdGlvbnMiLCJ0eXBlIjoiSXRlbSJ9LHsibmFtZSI6InNpbmNsYWlycy1saWJyYXJ5LWZlYXR1cmVzIiwibGFiZWwiOiJTaW5jbGFpcidzIExpYnJhcnkgLSBGZWF0dXJlcyIsInR5cGUiOiJJdGVtIn0seyJuYW1lIjoic2luY2xhaXJzLWxpYnJhcnktaGVyaXRhZ2VzIiwibGFiZWwiOiJTaW5jbGFpcidzIExpYnJhcnkgLSBIZXJpdGFnZXMiLCJ0eXBlIjoiSXRlbSJ9LHsibmFtZSI6InNpbmNsYWlycy1saWJyYXJ5LWVxdWlwbWVudCIsImxhYmVsIjoiU2luY2xhaXIncyBMaWJyYXJ5IC0gRXF1aXBtZW50IiwidHlwZSI6IkFjdG9yIn0seyJuYW1lIjoic2luY2xhaXJzLWxpYnJhcnktYmFja2dyb3VuZHMiLCJsYWJlbCI6IlNpbmNsYWlyJ3MgTGlicmFyeSAtIEJhY2tncm91bmRzIiwidHlwZSI6IkFjdG9yIn0seyJuYW1lIjoic2luY2xhaXJzLWxpYnJhcnktc3BlbGxzIiwibGFiZWwiOiJTaW5jbGFpcidzIExpYnJhcnkgLSBTcGVsbHMiLCJ0eXBlIjoiQWN0b3IifV19/download.zip",
+    "id": "sinclairs-library-playtest",
+    "authors": [
+        {
+            "name": "Aclethos"
+        }
+    ],
+    "minimumCoreVersion": "0.8.0",
+    "compatibleCoreVersion": "9",
+    "compatibility": {
+        "minimum": 9,
+        "verified": 10
+    },
+    "version": "1.1"
 }

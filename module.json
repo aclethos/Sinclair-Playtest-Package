@@ -132,7 +132,7 @@
 						"description": "A weapon with this trait..."
 					}
 				},
-				 "spellTraits": {
+				"spellTraits": {
 					"vitamancy": "Vitamancy"
 				},
 				"id": "sinclairs-library-playtest",
@@ -145,7 +145,7 @@
 					"minimum": 9,
 					"verified": 10
 				},
-				"version": "1.21"
+				"version": "1.25"
 			}
 		}
 

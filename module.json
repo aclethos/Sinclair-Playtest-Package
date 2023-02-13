@@ -2,6 +2,7 @@
 	"name": "sinclairs-library-playtest",
 	"title": "Sinclair's Library Playtest",
 	"author": "Aclethos",
+	"version": "This gets Autoreplaced",
 	"url": "This gets Autoreplaced",
 	"download": "This gets Autoreplaced",
 	"manifest": "This gets Autoreplaced",
@@ -144,8 +145,8 @@
 				"compatibility": {
 					"minimum": 9,
 					"verified": 10
-				},
-				"version": "1.25"
+				}
+				
 			}
 		}
 

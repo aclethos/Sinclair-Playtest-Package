@@ -2,10 +2,10 @@
 	"name": "sinclairs-library-playtest",
 	"title": "Sinclair's Library Playtest",
 	"author": "Aclethos",
-	"version": "This gets Autoreplaced",
-	"url": "This gets Autoreplaced",
+	"version": "1.4",
+	"url": "https://github.com/aclethos/Sinclair-Playtest-Package",
 	"download": "This gets Autoreplaced",
-	"manifest": "This gets Autoreplaced",
+	"manifest": "https://raw.githubusercontent.com/aclethos/Sinclair-Playtest-Package/master/module.json",
 	"description": "Approved Playtest Material for Sinclair's Library PF2e",
 	"packs": [{
 			"name": "sinclairs-library-ancestries",
@@ -104,6 +104,15 @@
 			"system": "pf2e",
 			"path": "packs/sinclairs-library-spells.db",
 			"entity": "Item",
+			"module": "sinclairs-library-playtest"
+		},
+		{
+			"name": "sinclairs-library-journals",
+			"label": "Sinclair's Library - Journals",
+			"type": "JournalEntry",
+			"system": "pf2e",
+			"path": "packs/sinclairs-library-journals.db",
+			"entity": "JournalEntry",
 			"module": "sinclairs-library-playtest"
 		}
 	],

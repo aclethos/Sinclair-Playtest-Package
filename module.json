@@ -2,7 +2,7 @@
   "title": "Sinclair's Library Playtest",
   "version": "1.42",
   "url": "https://github.com/aclethos/Sinclair-Playtest-Package",
-  "download": "https://github.com/aclethos/Sinclair-Playtest-Package/releases/download/v1.4/module.zip",
+  "download": "https://github.com/aclethos/Sinclair-Playtest-Package/releases/download/v1.42/module.zip",
   "manifest": "https://raw.githubusercontent.com/aclethos/Sinclair-Playtest-Package/master/module.json",
   "description": "Approved Playtest Material for Sinclair's Library PF2e",
   "packs": [

@@ -1,162 +1,169 @@
 {
-	"name": "sinclairs-library-playtest",
-	"title": "Sinclair's Library Playtest",
-	"author": "Aclethos",
-	"version": "1.4",
-	"url": "https://github.com/aclethos/Sinclair-Playtest-Package",
-	"download": "https://github.com/aclethos/Sinclair-Playtest-Package/releases/download/v1.4/module.zip",
-	"manifest": "https://raw.githubusercontent.com/aclethos/Sinclair-Playtest-Package/master/module.json",
-	"description": "Approved Playtest Material for Sinclair's Library PF2e",
-	"packs": [{
-			"name": "sinclairs-library-ancestries",
-			"label": "Sinclair's Library - Ancestries",
-			"type": "Item",
-			"system": "pf2e",
-			"path": "packs/sinclairs-library-ancestries.db",
-			"entity": "Item",
-			"module": "sinclairs-library-playtest"
-		},
-		{
-			"name": "sinclairs-library-feats",
-			"label": "Sinclair's Library - Feats",
-			"type": "Item",
-			"system": "pf2e",
-			"path": "packs/sinclairs-library-feats.db",
-			"entity": "Item",
-			"module": "sinclairs-library-playtest"
-		},
-		{
-			"name": "sinclairs-library-effects",
-			"label": "Sinclair's Library - Effects",
-			"type": "Item",
-			"system": "pf2e",
-			"path": "packs/sinclairs-library-effects.db",
-			"entity": "Item",
-			"module": "sinclairs-library-playtest"
-		},
-		{
-			"name": "sinclairs-library-classes",
-			"label": "Sinclair's Library - Classes",
-			"type": "Item",
-			"system": "pf2e",
-			"path": "packs/sinclairs-library-classes.db",
-			"entity": "Item",
-			"module": "sinclairs-library-playtest"
-		},
-		{
-			"name": "sinclairs-library-archetypes",
-			"label": "Sinclair's Library - Archetypes",
-			"type": "Item",
-			"system": "pf2e",
-			"path": "packs/sinclairs-library-archetypes.db",
-			"entity": "Item",
-			"module": "sinclairs-library-playtest"
-		},
-		{
-			"name": "sinclairs-library-actions",
-			"label": "Sinclair's Library - Actions",
-			"type": "Item",
-			"system": "pf2e",
-			"path": "packs/sinclairs-library-actions.db",
-			"entity": "Item",
-			"module": "sinclairs-library-playtest"
-		},
-		{
-			"name": "sinclairs-library-features",
-			"label": "Sinclair's Library - Features",
-			"type": "Item",
-			"system": "pf2e",
-			"path": "packs/sinclairs-library-features.db",
-			"entity": "Item",
-			"module": "sinclairs-library-playtest"
-		},
-		{
-			"name": "sinclairs-library-heritages",
-			"label": "Sinclair's Library - Heritages",
-			"type": "Item",
-			"system": "pf2e",
-			"path": "packs/sinclairs-library-heritages.db",
-			"entity": "Item",
-			"module": "sinclairs-library-playtest"
-		},
-		{
-			"name": "sinclairs-library-equipment",
-			"label": "Sinclair's Library - Equipment",
-			"type": "Item",
-			"system": "pf2e",
-			"path": "packs/sinclairs-library-equipment.db",
-			"entity": "Item",
-			"module": "sinclairs-library-playtest"
-		},
-		{
-			"name": "sinclairs-library-backgrounds",
-			"label": "Sinclair's Library - Backgrounds",
-			"type": "Item",
-			"system": "pf2e",
-			"path": "packs/sinclairs-library-backgrounds.db",
-			"entity": "Item",
-			"module": "sinclairs-library-playtest"
-		},
-		{
-			"name": "sinclairs-library-spells",
-			"label": "Sinclair's Library - Spells",
-			"type": "Item",
-			"system": "pf2e",
-			"path": "packs/sinclairs-library-spells.db",
-			"entity": "Item",
-			"module": "sinclairs-library-playtest"
-		},
-		{
-			"name": "sinclairs-library-journals",
-			"label": "Sinclair's Library - Journals",
-			"type": "JournalEntry",
-			"system": "pf2e",
-			"path": "packs/sinclairs-library-journals.db",
-			"entity": "JournalEntry",
-			"module": "sinclairs-library-playtest"
-		}
-	],
-	"flags": {
-		"sinclairs-library-playtest": {
-			"pf2e-homebrew": {
-				"creatureTraits": {
-					"bovian": "Bovian",
-					"gnosite": "Gnosite"
-				},
-				"armorTraits": {
-					"gnosite": "Gnosite"
-				},
-				"featTraits": {
-					"bovian": "Bovian",
-					"gnosite": "Gnosite",
-					"shaman": "Shaman",
-					"vitamancy": "Vitamancy"
-				},
-				"weaponTraits": {
-					"bovian": {
-						"label": "Bovian",
-						"description": "PF2E.TraitDescriptionBovian"
-					},
-					"return": {
-						"label": "Return",
-						"description": "A weapon with this trait..."
-					}
-				},
-				"spellTraits": {
-					"vitamancy": "Vitamancy"
-				},
-				"id": "sinclairs-library-playtest",
-				"authors": [{
-					"name": "Aclethos"
-				}],
-				"minimumCoreVersion": "0.8.0",
-				"compatibleCoreVersion": "9",
-				"compatibility": {
-					"minimum": 9,
-					"verified": 10
-				}
-			}
-		}
-
-	}
+  "title": "Sinclair's Library Playtest",
+  "version": "1.42",
+  "url": "https://github.com/aclethos/Sinclair-Playtest-Package",
+  "download": "https://github.com/aclethos/Sinclair-Playtest-Package/releases/download/v1.4/module.zip",
+  "manifest": "https://raw.githubusercontent.com/aclethos/Sinclair-Playtest-Package/master/module.json",
+  "description": "Approved Playtest Material for Sinclair's Library PF2e",
+  "packs": [
+    {
+      "name": "sinclairs-library-ancestries",
+      "label": "Sinclair's Library - Ancestries",
+      "type": "Item",
+      "system": "pf2e",
+      "path": "packs/sinclairs-library-ancestries.db",
+      "private": false,
+      "flags": {}
+    },
+    {
+      "name": "sinclairs-library-feats",
+      "label": "Sinclair's Library - Feats",
+      "type": "Item",
+      "system": "pf2e",
+      "path": "packs/sinclairs-library-feats.db",
+      "private": false,
+      "flags": {}
+    },
+    {
+      "name": "sinclairs-library-effects",
+      "label": "Sinclair's Library - Effects",
+      "type": "Item",
+      "system": "pf2e",
+      "path": "packs/sinclairs-library-effects.db",
+      "private": false,
+      "flags": {}
+    },
+    {
+      "name": "sinclairs-library-classes",
+      "label": "Sinclair's Library - Classes",
+      "type": "Item",
+      "system": "pf2e",
+      "path": "packs/sinclairs-library-classes.db",
+      "private": false,
+      "flags": {}
+    },
+    {
+      "name": "sinclairs-library-archetypes",
+      "label": "Sinclair's Library - Archetypes",
+      "type": "Item",
+      "system": "pf2e",
+      "path": "packs/sinclairs-library-archetypes.db",
+      "private": false,
+      "flags": {}
+    },
+    {
+      "name": "sinclairs-library-actions",
+      "label": "Sinclair's Library - Actions",
+      "type": "Item",
+      "system": "pf2e",
+      "path": "packs/sinclairs-library-actions.db",
+      "private": false,
+      "flags": {}
+    },
+    {
+      "name": "sinclairs-library-features",
+      "label": "Sinclair's Library - Features",
+      "type": "Item",
+      "system": "pf2e",
+      "path": "packs/sinclairs-library-features.db",
+      "private": false,
+      "flags": {}
+    },
+    {
+      "name": "sinclairs-library-heritages",
+      "label": "Sinclair's Library - Heritages",
+      "type": "Item",
+      "system": "pf2e",
+      "path": "packs/sinclairs-library-heritages.db",
+      "private": false,
+      "flags": {}
+    },
+    {
+      "name": "sinclairs-library-equipment",
+      "label": "Sinclair's Library - Equipment",
+      "type": "Item",
+      "system": "pf2e",
+      "path": "packs/sinclairs-library-equipment.db",
+      "private": false,
+      "flags": {}
+    },
+    {
+      "name": "sinclairs-library-backgrounds",
+      "label": "Sinclair's Library - Backgrounds",
+      "type": "Item",
+      "system": "pf2e",
+      "path": "packs/sinclairs-library-backgrounds.db",
+      "private": false,
+      "flags": {}
+    },
+    {
+      "name": "sinclairs-library-spells",
+      "label": "Sinclair's Library - Spells",
+      "type": "Item",
+      "system": "pf2e",
+      "path": "packs/sinclairs-library-spells.db",
+      "private": false,
+      "flags": {}
+    },
+    {
+      "name": "sinclairs-library-journals",
+      "label": "Sinclair's Library - Journals",
+      "type": "JournalEntry",
+      "system": "pf2e",
+      "path": "packs/sinclairs-library-journals.db",
+      "private": false,
+      "flags": {}
+    }
+  ],
+  "flags": {
+    "sinclairs-library-playtest": {
+      "pf2e-homebrew": {
+        "creatureTraits": {
+          "bovian": "Bovian",
+          "gnosite": "Gnosite"
+        },
+        "armorTraits": {
+          "gnosite": "Gnosite"
+        },
+        "featTraits": {
+          "bovian": "Bovian",
+          "gnosite": "Gnosite",
+          "shaman": "Shaman",
+          "vitamancy": "Vitamancy"
+        },
+        "weaponTraits": {
+          "bovian": {
+            "label": "Bovian",
+            "description": "PF2E.TraitDescriptionBovian"
+          },
+          "return": {
+            "label": "Return",
+            "description": "A weapon with this trait..."
+          }
+        },
+        "spellTraits": {
+          "vitamancy": "Vitamancy"
+        },
+        "id": "sinclairs-library-playtest",
+        "authors": [
+          {
+            "name": "Aclethos"
+          }
+        ],
+        "minimumCoreVersion": "0.8.0",
+        "compatibleCoreVersion": "9",
+        "compatibility": {
+          "minimum": 9,
+          "verified": 10
+        }
+      }
+    }
+  },
+  "id": "sinclairs-library-playtest",
+  "authors": [
+    {
+      "name": "Aclethos",
+      "flags": {}
+    }
+  ]
 }
